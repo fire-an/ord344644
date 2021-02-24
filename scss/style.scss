@@ -316,6 +316,9 @@ body {
 				}
 			}
 		}
+		._l24 {
+			padding: 24px 0 24px 24px;
+		}
 	}
 	._body2 {
 		margin: 0 24px;
@@ -442,8 +445,8 @@ body {
 				margin-right: 24px;
 			}
 		}
-		._textarea {
-			width: 666px;
+		textarea {
+			width: 95%;
 			height: 98px;
 			background: #fafafa;
 			border: none;
@@ -542,8 +545,8 @@ body {
 	.table>:not(:last-child)>:last-child>* {
 		border-bottom-color: #fafafa;
 	}
-	._l24 {
-		padding-left: 24px;
-		padding-bottom: 24px;
+	::placeholder {
+		padding-top:16px;
+		padding-left:16px;
 	}
 }
