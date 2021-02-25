@@ -450,6 +450,8 @@ body {
 			height: 98px;
 			background: #fafafa;
 			border: none;
+			padding-top: 16px;
+			padding-left: 16px;
 		}
 	}
 	hr {
@@ -544,9 +546,5 @@ body {
 	}
 	.table>:not(:last-child)>:last-child>* {
 		border-bottom-color: #fafafa;
-	}
-	::placeholder {
-		padding-top:16px;
-		padding-left:16px;
 	}
 }
